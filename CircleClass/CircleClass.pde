@@ -36,9 +36,10 @@ void draw() {
 }
 
 void mouseClicked() {
-  if (switcher) {
+  switcher = !switcher;
+  /*if (switcher) {
     switcher = false;
   } else if (!switcher) {
     switcher = true;
-  }
+  }*/
 }
