@@ -1,17 +1,10 @@
 class Shape {
-  float x;
-  float y;
-  float xSpeed;
-  float ySpeed;
+  float x, y, xSpeed, ySpeed;
   
-  float radius;
-  float xSize;
-  float ySize;
+  float radius, xSize, ySize;
   
-  color rColor;
-  color gColor;
-  color bColor;
-
+  color rColor, gColor, bColor;
+  
   Shape(float x, float y, float xSpeed, float ySpeed, float radius) {
     this.x = x;
     this.y = y;
@@ -56,6 +49,6 @@ class Shape {
     fill(rColor, gColor, bColor);
     ellipse(x, y, radius, radius);
     rectMode(CENTER);
-    rect(x,y,xSize,ySize);
+    rect(x, y, xSize,ySize);
   }
 }
